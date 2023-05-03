@@ -131,8 +131,8 @@ document.addEventListener("DOMContentLoaded", ()=>{
         
     function changeImage(e){
         if(isOffice == 0){
-            largeImg.src = "./assets/largeMicrosoftLegends.png";
-            medImg.src = "./assets/microsoftlegends.png";
+            largeImg.src = "assets/largeMicrosoftLegends.png";
+            medImg.src = "assets/microsoftlegends.png";
             minecraft.style.display = "inline-block";
             notMinecraft.style.display = "none";
             notMinecraft2.style.display = "none";
