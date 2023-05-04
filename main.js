@@ -132,7 +132,7 @@ document.addEventListener("DOMContentLoaded", ()=>{
     function changeImage(e){
         if(isOffice == 0){
             largeImg.src = "assets/largeMicrosoftLegends.png";
-            medImg.src = "assets/Microsoftlegends.png";
+            medImg.src = "./assets/Microsoftlegends.png";
             minecraft.style.display = "inline-block";
             notMinecraft.style.display = "none";
             notMinecraft2.style.display = "none";
@@ -145,7 +145,7 @@ document.addEventListener("DOMContentLoaded", ()=>{
         }
         else{
             largeImg.src = "assets/largemicrosoftoffice.png";
-            medImg.src = "assets/microsoftoffice.png";
+            medImg.src = "./assets/microsoftoffice.png";
             minecraft.style.display = "none";
             notMinecraft.style.display = "inline-block";
             notMinecraft2.style.display = "inline-block";
